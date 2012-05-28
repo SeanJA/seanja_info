@@ -1,0 +1,14 @@
+@import "compass";
+
+@mixin selection($color:#ff5e99){
+  ::-moz-selection {
+    @include pretty-selection($color); }
+
+  ::selection {
+    @include pretty-selection($color); }
+}
+
+@mixin pretty-selection($color) {
+  background: #ff5e99;
+  color: white;
+  text-shadow: none; }
