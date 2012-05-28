@@ -106,7 +106,7 @@ function get_slogan() {
         'A Half-orc-barbarian-wizard-tax-accountant.'
     );
 
-    $rand =  ((int)date('z')) % count($slogans);
+    $mod =  ((int)date('z')) % count($slogans);
 
-    return $slogans[$rand];
+    return $slogans[$mod];
 }
