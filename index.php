@@ -4,17 +4,19 @@
 <!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en-us" class="no-js"> <!--<![endif]-->
     <head>
+        <?php
+            require 'functions.php';
+            $slogan = get_slogan();
+            $social = get_social();
+        ?>
         <meta charset="utf-8" />
-        <title>SeanJA.info</title>
-        <meta name="description" content="This is where I am at" />
+        <title>SeanJA.info | <?php echo $slogan ?></title>
+        <meta name="description" content="SeanJA's Info" />
         <meta name="author" content="SeanJA" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="http://seanja.com/favicon.ico" />
         <script src="js/libs/modernizr-1.7.min.js"></script>
-        <?php
-        require 'functions.php';
-        $social = get_social();
-        ?>
+
         <style>
            body{
                 visibility: hidden;
@@ -26,7 +28,7 @@
             <div id="ch-ch-ch-ch-ch"></div>
             <header>
                 <h1>Interact with SeanJA</h1>
-                <h2><?php echo get_slogan(); ?></h2>
+                <h2><?php echo $slogan; ?></h2>
             </header>
             <div id="main" role="main">
                 <div id="social">
@@ -40,6 +42,7 @@
                 </div>
             </div>
             <footer>
+                <a class="disclaimer" href="http://seanja.mtamo.com" target="_blank">Disclaimer</a>
             </footer>
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
