@@ -1,0 +1,32 @@
+@media only screen and (max-width: 940px){
+  header{
+    background-image: none;
+    margin: 0;
+    h1{
+      height: inherit;}
+    h2{
+      margin-top: 10px;
+      margin-right: 0;
+      text-align: center;}}
+  #social{
+    width: 80%;}
+  #ch-ch-ch-ch-ch{
+    display: none;}
+  #container {
+    border: none;
+    border-radius: 0;
+    margin: 0 auto;
+    max-width: 900px;}
+}
+
+@media only screen and (max-width: 500px){
+  header {
+    h1{
+    font-size: 30px;}
+    h2{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0;}}
+  #main{
+    margin: 0;}
+}
