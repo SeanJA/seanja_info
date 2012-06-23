@@ -19,8 +19,8 @@ function get_social() {
             'link' => 'http://github.com/SeanJA/',
         ),
         array(
-            'id' => 'trello',
-            'link' => 'http://trello.com/seanja/',
+            'id' => 'coderwall',
+            'link' => 'http://coderwall.com/seanja',
         ),
         array(
             'id' => 'runkeeper',
