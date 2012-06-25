@@ -1,5 +1,7 @@
 @import "compass";
 
+* { box-sizing: border-box }
+
 @mixin selection($color:#ff5e99){
   ::-moz-selection {
     @include pretty-selection($color); }
