@@ -1,1 +1,1 @@
-*{box-sizing:border-box}*{float:none;background:white;color:black}body{font-size:80%}
+*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;*behavior:url(/css/boxsizing.htc)}*{float:none;background:white;color:black}body{font-size:80%}
