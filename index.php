@@ -10,7 +10,7 @@
             $social = get_social();
         ?>
         <meta charset="utf-8" />
-        <title>SeanJA.info | <?php echo $slogan ?></title>
+        <title>SeanJA.info | <?php echo strip_tags($slogan) ?></title>
         <meta name="description" content="SeanJA's Info" />
         <meta name="author" content="SeanJA" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
