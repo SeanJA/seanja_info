@@ -103,7 +103,8 @@ function get_slogan() {
         '<a href="#" onclick="show_helicopter(); return false;">ch-ch-ch-ch-ch</a>',
         'Dexterous mamal',
         '<a target="_blank" href="http://blog.ravis.org/post/22671558317/if-you-try-really-hard-to-fuck-up-a-job-application">The sorrow is yours</a>',
-        'A Half-orc-barbarian-wizard-tax-accountant.'
+        'A Half-orc-barbarian-wizard-tax-accountant.',
+        'Abandon shop! This is not a daffodil!',
     );
 
     $mod =  ((int)date('z')) % count($slogans);
