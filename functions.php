@@ -96,6 +96,7 @@ function get_slogan() {
         '<a title="Pew Pew Pew" href="javascript:var%20s%20=%20document.createElement(\'script\');s.type=\'text/javascript\';document.body.appendChild(s);s.src=\'http://erkie.github.com/asteroids.min.js\';void(0);" id="doit">Pew Pew Pew</a>',
         'Interface 2037 ready for inquiry',
         'Can you dig it?',
+        'Who ever heard of a worm skin rug?',
         'Description of website here&hellip;',
         'Kill it with fire!',
         '*{position: relative;} /*all the things!*/',
@@ -105,6 +106,8 @@ function get_slogan() {
         '<a target="_blank" href="http://blog.ravis.org/post/22671558317/if-you-try-really-hard-to-fuck-up-a-job-application">The sorrow is yours</a>',
         'A Half-orc-barbarian-wizard-tax-accountant.',
         'Abandon shop! This is not a daffodil!',
+        'Not completely incompetant under proper supervision',
+        'Space Corps directive 1472',
     );
 
     $mod =  ((int)date('z')) % count($slogans);
