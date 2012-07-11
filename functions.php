@@ -108,6 +108,7 @@ function get_slogan() {
         'Abandon shop! This is not a daffodil!',
         'Not completely incompetant under proper supervision',
         'Space Corps directive 1472',
+        'Error, unexpected number',
     );
 
     $mod =  ((int)date('z')) % count($slogans);
