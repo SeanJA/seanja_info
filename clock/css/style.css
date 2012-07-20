@@ -144,3 +144,12 @@ a{
 a:hover{
     text-shadow:0 0 2px #555;
 }​
+
+small{
+    text-align: right;
+    width: 550px;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    font-size: 7px;
+}
