@@ -109,6 +109,7 @@ function get_slogan() {
         'Not completely incompetant under proper supervision',
         'Space Corps directive 1472',
         'Error, unexpected number',
+        'I write English in strict K&amp;R',
     );
 
     $mod =  ((int)date('z')) % count($slogans);
