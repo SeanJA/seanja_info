@@ -107,7 +107,7 @@ function get_slogan() {
         'A Half-orc-barbarian-wizard-tax-accountant.',
         'Abandon shop! This is not a daffodil!',
         'Not completely incompetant under proper supervision',
-        'Space Corps directive 1472',
+        'Space Corps directive <a href="http://en.wikipedia.org/wiki/Space_Corps_Directives#Directives_from_the_TV_Series" target="_blank">1742</a>',
         'Error, unexpected number',
         'I write English in strict K&amp;R',
     );
