@@ -63,5 +63,6 @@
         </script>
         <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css' />
         <link rel="stylesheet" href="css/style.css" />
+        <img id="australia" title="fix for australians" src="img/australia.gif" alt="australia" />
     </body>
 </html>

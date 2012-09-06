@@ -14,3 +14,9 @@ function show_helicopter(){
         $('#frame').hide();
     }
 }
+
+$().ready(function(){
+  $('#australia').click(function(){
+    $('body').toggleClass('australia');
+  });
+});
