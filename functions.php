@@ -3,6 +3,10 @@
 function get_social() {
     return array(
         array(
+            'id'=>'app_dot_net',
+            'link'=>'https://alpha.app.net/seanja',
+        ),
+        array(
             'id' => 'twitter',
             'link' => 'https://twitter.com/SeanJA',
         ),
@@ -17,6 +21,10 @@ function get_social() {
         array(
             'id' => 'github',
             'link' => 'http://github.com/SeanJA/',
+        ),
+        array(
+            'id'=>'greasemonkey',
+            'link'=>'http://userscripts.org/users/483946',
         ),
         array(
             'id' => 'coderwall',

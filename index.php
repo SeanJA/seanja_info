@@ -33,9 +33,10 @@
             <div id="main" role="main">
                 <div id="social">
                     <?php foreach ($social as $s): ?>
+                        <?php $title = str_replace('_',' ',$s['id']); ?>
                         <div class="links blur" id="<?php echo $s['id']; ?>" >
-                            <a target="_blank" title="<?php echo $s['id']; ?>" href="<?php echo $s['link']; ?>">
-                                <img src="img/social/<?php echo $s['id']; ?>.png" alt="<?php echo $s['id']; ?>" />
+                            <a target="_blank" title="<?php echo $title ?>" href="<?php echo $s['link']; ?>">
+                                <img src="img/social/<?php echo $s['id']; ?>.png" alt="<?php echo $title ?>" />
                             </a>
                         </div>
                     <?php endforeach; ?>
