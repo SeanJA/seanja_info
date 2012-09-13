@@ -7,8 +7,8 @@
 header {
   background: url("../img/seanja_cutout_small.png") no-repeat scroll 25px 0 transparent;
   -webkit-filter: grayscale(100%);
-  filter: gray;
   filter: url(../filters.svg#grayscale);
+  filter: gray;
   margin: 10px 10px 0 10px;
 }
 
@@ -57,8 +57,8 @@ header {
   .links {
     display: inline-block;
     -webkit-filter: blur(2px) grayscale(100%);
-    filter: gray;
     filter: url(../filters.svg#blur-bw);
+    filter: gray;
     max-width: 300px;
     min-width: 128px;
     width: 24%;
