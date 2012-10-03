@@ -73,6 +73,16 @@ header {
   }
 }
 
+.grey{
+  -webkit-filter: grayscale(100%);
+  filter: url(../filters.svg#grayscale);
+  filter: gray;
+  &:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+  }
+}
+
 #ch-ch-ch-ch-ch {
   margin: 0 auto;
   width: 500px;
@@ -107,3 +117,19 @@ footer{
 #australia{
   margin: 10px;
 }
+
+$worker: #000;
+$background: #FF5E99;
+$animation-name: construction;
+
+.construction-wrapper{
+  width: 266px;
+  height: 267px;
+  margin: 0 auto;
+}
+
+.construction{
+  @include construction($worker, $background, $animation-name);
+}
+
+@include construction-animation($worker, $background, $animation-name);
