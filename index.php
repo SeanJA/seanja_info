@@ -44,6 +44,10 @@
             </div>
             <footer>
                 <a class="disclaimer" href="http://seanja.mtamo.com" target="_blank">Disclaimer</a>
+                |
+                <a title="hard hat area" href="under-construction.php">This page is under construction.</a>
+                |
+                <a title="what time is it?" href="clock">Look at the time</a>
             </footer>
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
