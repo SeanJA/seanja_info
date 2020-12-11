@@ -3,10 +3,6 @@
 function get_social() {
     return array(
         array(
-            'id'=>'app_dot_net',
-            'link'=>'https://alpha.app.net/seanja',
-        ),
-        array(
             'id' => 'twitter',
             'link' => 'https://twitter.com/SeanJA',
         ),
@@ -15,24 +11,12 @@ function get_social() {
             'link' => 'http://blog.seanja.com',
         ),
         array(
-            'id' => 'images',
-            'link' => 'http://i.seanja.com',
-        ),
-        array(
             'id' => 'github',
             'link' => 'http://github.com/SeanJA/',
         ),
         array(
-            'id'=>'greasemonkey',
-            'link'=>'http://userscripts.org/users/483946',
-        ),
-        array(
-            'id' => 'coderwall',
-            'link' => 'http://coderwall.com/seanja',
-        ),
-        array(
-            'id' => 'runkeeper',
-            'link' => 'http://runkeeper.com/user/SeanJA/profile',
+            'id' => 'strava',
+            'link' => 'https://www.strava.com/athletes/7421948',
         ),
         array(
             'id' => 'goodreads',
@@ -43,20 +27,8 @@ function get_social() {
             'link' => 'http://stackoverflow.com/users/75924/seanja',
         ),
         array(
-            'id' => 'googleplus',
-            'link' => 'https://plus.google.com/110257807199484842709',
-        ),
-        array(
-            'id' => 'google-play',
-            'link' => 'https://play.google.com/store/apps/developer?id=SeanJA',
-        ),
-        array(
-            'id' => 'boardgamegeek',
+            'id' => 'bgg',
             'link' => 'http://boardgamegeek.com/user/SeanJA',
-        ),
-        array(
-            'id' => 'kiva',
-            'link' => 'http://kiva.org/lender/seanja',
         ),
         array(
             'id' => 'steam',
@@ -67,16 +39,8 @@ function get_social() {
             'link' => 'http://drupal.org/user/387072',
         ),
         array(
-            'id' => 'geeklist',
-            'link' => 'http://geekli.st/SeanJA',
-        ),
-        array(
             'id' => 'flickr',
             'link' => 'http://www.flickr.com/photos/96381253@N00/',
-        ),
-        array(
-            'id' => 'getglue',
-            'link' => 'http://getglue.com/SeanJA',
         ),
         array(
             'id' => 'youtube',
